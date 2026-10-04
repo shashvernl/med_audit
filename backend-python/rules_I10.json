@@ -1,0 +1,47 @@
+[
+  {
+    "drug": "амлодипин",
+    "dosage": "5–10 мг 1 раз в сутки",
+    "condition": "артериальная гипертензия",
+    "recommendation_class": "IA",
+    "source_text": "амлодипин рекомендован как первый выбор при АГ",
+    "category": "ccb",
+    "required": true
+  },
+  {
+    "drug": "лизиноприл",
+    "dosage": "10–20 мг 1 раз в сутки",
+    "condition": "артериальная гипертензия",
+    "recommendation_class": "IA",
+    "source_text": "иАПФ рекомендован как первый выбор при АГ",
+    "category": "acei_arb",
+    "required": true
+  },
+  {
+    "drug": "валсартан",
+    "dosage": "80–160 мг 1 раз в сутки",
+    "condition": "артериальная гипертензия, непереносимость иАПФ",
+    "recommendation_class": "IA",
+    "source_text": "АРА II рекомендован как альтернатива иАПФ",
+    "category": "acei_arb",
+    "required": true
+  },
+  {
+    "drug": "моксонидин",
+    "dosage": "0.4 мг 1–2 раза в сутки",
+    "condition": "артериальная гипертензия, вторая линия",
+    "recommendation_class": "IIaB",
+    "source_text": "моксонидин может быть назначен как добавочная терапия",
+    "category": "imidasoline",
+    "required": false
+  },
+  {
+    "drug": "гидрохлоротиазид",
+    "dosage": "12.5–25 мг 1 раз в сутки",
+    "condition": "артериальная гипертензия, добавочная терапия",
+    "recommendation_class": "IA",
+    "source_text": "тиазидные диуретики рекомендованы как добавочная терапия",
+    "category": "diuretic",
+    "required": false
+  }
+]

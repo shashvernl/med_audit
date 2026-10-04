@@ -1,0 +1,47 @@
+[
+  {
+    "drug": "метформин",
+    "dosage": "500–2000 мг в сутки в 2–3 приема",
+    "condition": "сахарный диабет 2 типа, без противопоказаний",
+    "recommendation_class": "IA",
+    "source_text": "метформин рекомендован как первый выбор при СД 2 типа",
+    "category": "biguanide",
+    "required": true
+  },
+  {
+    "drug": "дапаглифлозин",
+    "dosage": "10 мг 1 раз в сутки",
+    "condition": "СД 2 типа с ХСН",
+    "recommendation_class": "IA",
+    "source_text": "дапаглифлозин рекомендован при СД 2 типа и ХСН",
+    "category": "sglt2_inhibitor",
+    "required": true
+  },
+  {
+    "drug": "ситаглиптин",
+    "dosage": "100 мг 1 раз в сутки",
+    "condition": "СД 2 tipo, добавочная терапия",
+    "recommendation_class": "IIaB",
+    "source_text": "ситаглиптин может быть назначен как добавочная терапия",
+    "category": "gliptin",
+    "required": false
+  },
+  {
+    "drug": "глибенкламид",
+    "dosage": "2.5–15 мг в сутки в 1–2 приема",
+    "condition": "СД 2 tipo, добавочная терапия",
+    "recommendation_class": "IA",
+    "source_text": "производные сульфонилмочевины могут быть назначены",
+    "category": "sulfonylurea",
+    "required": false
+  },
+  {
+    "drug": "инсулин",
+    "dosage": "индивидуально",
+    "condition": "СД 2 tipo, декомпенсация",
+    "recommendation_class": "IA",
+    "source_text": "инсулин рекомендован при декомпенсации СД",
+    "category": "insulin",
+    "required": false
+  }
+]

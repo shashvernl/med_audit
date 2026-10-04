@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Загрузки пользователей
+backend-python/uploads/
+backend/uploads/
+uploads/
+
+# Модели Ollama (гигабайты!)
+ollama_data/
+
+# Laravel
+backend-laravel/backend-laravel/vendor/
+backend-laravel/backend-laravel/node_modules/
+backend-laravel/backend-laravel/.env
+backend-laravel/backend-laravel/storage/*.key
+backend-laravel/backend-laravel/storage/logs/*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

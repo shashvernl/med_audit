@@ -1,0 +1,56 @@
+[
+  {
+    "drug": "фуросемид",
+    "dosage": "20–40 мг 1–2 раза в сутки",
+    "condition": "хроническая сердечная недостаточность с симптомами застоя",
+    "recommendation_class": "IA",
+    "source_text": "рекомендовано назначение фуросемида при наличии симптомов застоя",
+    "category": "diuretic",
+    "required": true
+  },
+  {
+    "drug": "торасемид",
+    "dosage": "5–10 мг 1 раз в сутки",
+    "condition": "альтернатива фуросемиду при ХСН",
+    "recommendation_class": "IA",
+    "source_text": "торасемид может быть назначен как альтернатива фуросемиду",
+    "category": "diuretic",
+    "required": false
+  },
+  {
+    "drug": "лозартан",
+    "dosage": "50–100 мг 1 раз в сутки",
+    "condition": "ХСН с ФВ ЛЖ снижена, непереносимость иАПФ",
+    "recommendation_class": "IA",
+    "source_text": "лозартан рекомендован при непереносимости иАПФ",
+    "category": "acei_arb",
+    "required": true
+  },
+  {
+    "drug": "бисопролол",
+    "dosage": "1.25–10 мг 1 раз в сутки",
+    "condition": "ХСН с ФВ ЛЖ снижена",
+    "recommendation_class": "IA",
+    "source_text": "бета-адреноблокаторы рекомендованы при ХСН с ФВ ЛЖ снижена",
+    "category": "beta_blocker",
+    "required": true
+  },
+  {
+    "drug": "спиронолактон",
+    "dosage": "25 мг 1 раз в сутки",
+    "condition": "ХСН с ФВ ЛЖ ≤35%",
+    "recommendation_class": "IB",
+    "source_text": "спиронолактон рекомендован при ФВ ЛЖ ≤35%",
+    "category": "aldosterone_antagonist",
+    "required": true
+  },
+  {
+    "drug": "дапаглифлозин",
+    "dosage": "10 мг 1 раз в сутки",
+    "condition": "ХСН с ФВ ЛЖ снижена",
+    "recommendation_class": "IA",
+    "source_text": "дапаглифлозин рекомендован при ХСН",
+    "category": "sglt2_inhibitor",
+    "required": true
+  }
+]

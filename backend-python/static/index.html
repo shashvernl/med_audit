@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Checker</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Проверка качества эпикриза</h1>
+            <p class="subtitle">Автоматический анализ соответствия клиническим рекомендациям</p>
+            <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+                <p>Нажмите или перетащите PDF-файл эпикриза</p>
+                <p style="font-size: 12px; color: #64748b; margin-top: 8px;">Поддерживаются только документы в формате .pdf</p>
+            </div>
+            <input type="file" id="fileInput" accept=".pdf">
+            <div style="text-align: center; margin-top: 15px;">
+                <button onclick="uploadPDF()" id="uploadBtn">Начать проверку</button>
+            </div>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p style="color: #2563eb; font-weight: 500;">Анализ эпикриза и проверка по правилам...</p>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

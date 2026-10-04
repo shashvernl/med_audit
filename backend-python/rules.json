@@ -1,0 +1,295 @@
+{
+  "I21": [
+    {
+      "drug": "ацетилсалициловая кислота",
+      "dosage": "нагрузочная доза 150–300 мг, затем 75–100 мг",
+      "condition": "все пациенты с ИМпST",
+      "recommendation_class": "IA",
+      "source_text": "АСК рекомендуется в нагрузочной дозе",
+      "category": "antiplatelet",
+      "required": true
+    },
+    {
+      "drug": "клопидогрел",
+      "dosage": "600 мг нагрузочно, затем 75 мг/сут",
+      "condition": "ИМпST при ЧКВ",
+      "recommendation_class": "IB",
+      "source_text": "клопидогрел рекомендован в дополнение к АСК",
+      "category": "antiplatelet",
+      "required": true
+    },
+    {
+      "drug": "метопролол",
+      "dosage": "перорально или в/в",
+      "condition": "ИМпST",
+      "recommendation_class": "IA",
+      "source_text": "Изученными у пациентов с ИМпST считаются метопролол",
+      "category": "beta_blocker",
+      "required": true
+    },
+    {
+      "drug": "аторвастатин",
+      "dosage": "40–80 мг 1 раз в сутки",
+      "condition": "ИМпST",
+      "recommendation_class": "IA",
+      "source_text": "аторвастатин 40–80 мг 1 раз в сутки",
+      "category": "statin",
+      "required": true
+    },
+    {
+      "drug": "лизиноприл",
+      "dosage": "5-10 мг",
+      "condition": "ИМпST",
+      "recommendation_class": "IA",
+      "source_text": "иАПФ рекомендованы при ИМ",
+      "category": "acei_arb",
+      "required": true
+    },
+    {
+      "drug": "эхокг",
+      "dosage": "в течение 24-48 часов",
+      "condition": "Обязательно для оценки ФВ ЛЖ",
+      "recommendation_class": "IC",
+      "source_text": "ЭхоКГ рекомендуется всем пациентам с ИМ",
+      "category": "procedure",
+      "required": true
+    },
+    {
+      "drug": "каг",
+      "dosage": "в первые 24 часа",
+      "condition": "ИМпST",
+      "recommendation_class": "IA",
+      "source_text": "Коронароангиография рекомендуется",
+      "category": "procedure",
+      "required": true
+    }
+  ],
+  "I20": [
+    {
+      "drug": "ацетилсалициловая кислота",
+      "dosage": "75–100 мг 1 раз в сутки",
+      "condition": "Все пациенты со стенокардией",
+      "recommendation_class": "IA",
+      "source_text": "АСК рекомендуется всем пациентам с ИБС",
+      "category": "antiplatelet",
+      "required": true
+    },
+    {
+      "drug": "аторвастатин",
+      "dosage": "40–80 мг",
+      "condition": "Для снижения риска осложнений",
+      "recommendation_class": "IA",
+      "source_text": "Статины рекомендуются всем пациентам с ИБС",
+      "category": "statin",
+      "required": true
+    },
+    {
+      "drug": "метопролол",
+      "dosage": "индивидуально",
+      "condition": "Для контроля ЧСС и устранения ишемии",
+      "recommendation_class": "IA",
+      "source_text": "Бета-блокаторы — первая линия терапии стенокардии",
+      "category": "beta_blocker",
+      "required": true
+    },
+    {
+      "drug": "нитроглицерин",
+      "dosage": "сублингвально при приступе",
+      "condition": "Для купирования приступов",
+      "recommendation_class": "IA",
+      "source_text": "Нитраты короткого действия для снятия боли",
+      "category": "nitrate",
+      "required": false
+    },
+    {
+      "drug": "эхокг",
+      "dosage": "при первичном обращении",
+      "condition": "Для оценки функции сердца",
+      "recommendation_class": "IC",
+      "source_text": "ЭхоКГ рекомендуется для диагностики",
+      "category": "procedure",
+      "required": true
+    }
+  ],
+  "I11": [
+    {
+      "drug": "амлодипин",
+      "dosage": "5–10 мг",
+      "condition": "Артериальная гипертензия",
+      "recommendation_class": "IA",
+      "source_text": "АК рекомендованы как первый выбор",
+      "category": "ccb",
+      "required": true
+    },
+    {
+      "drug": "лизиноприл",
+      "dosage": "10–20 мг",
+      "condition": "Гипертоническая болезнь с поражением сердца",
+      "recommendation_class": "IA",
+      "source_text": "иАПФ рекомендованы при поражении органов-мишеней",
+      "category": "acei_arb",
+      "required": true
+    },
+    {
+      "drug": "индапамид",
+      "dosage": "1.5–2.5 мг",
+      "condition": "Комбинированная терапия",
+      "recommendation_class": "IA",
+      "source_text": "Диуретики рекомендованы в комбинации",
+      "category": "diuretic",
+      "required": false
+    },
+    {
+      "drug": "эхокг",
+      "dosage": "для оценки гипертрофии",
+      "condition": "Для выявления ПОМ",
+      "recommendation_class": "IC",
+      "source_text": "ЭхоКГ обязательно для оценки сердца при АГ",
+      "category": "procedure",
+      "required": true
+    }
+  ],
+  "I25": [
+    {
+      "drug": "ацетилсалициловая кислота",
+      "dosage": "75–100 мг",
+      "condition": "Хроническая ИБС",
+      "recommendation_class": "IA",
+      "source_text": "АСК рекомендуется длительно",
+      "category": "antiplatelet",
+      "required": true
+    },
+    {
+      "drug": "аторвастатин",
+      "dosage": "40–80 мг",
+      "condition": "Хроническая ИБС",
+      "recommendation_class": "IA",
+      "source_text": "Статины рекомендуются всем пациентам с ИБС",
+      "category": "statin",
+      "required": true
+    },
+    {
+      "drug": "бисопролол",
+      "dosage": "2.5–10 мг",
+      "condition": "Для профилактики ишемии",
+      "recommendation_class": "IA",
+      "source_text": "Бета-блокаторы рекомендованы при стабильной ИБС",
+      "category": "beta_blocker",
+      "required": true
+    },
+    {
+      "drug": "эхокг",
+      "dosage": "раз в год или при ухудшении",
+      "condition": "Контроль функции сердца",
+      "recommendation_class": "IC",
+      "source_text": "ЭхоКГ рекомендуется для динамического наблюдения",
+      "category": "procedure",
+      "required": false
+    }
+  ],
+  "I48": [
+    {
+      "drug": "апиксабан",
+      "dosage": "5 мг 2 раза в сутки",
+      "condition": "Фибрилляция предсердий",
+      "recommendation_class": "IA",
+      "source_text": "ПОАК рекомендованы при высоком риске инсульта",
+      "category": "anticoagulant",
+      "required": true
+    },
+    {
+      "drug": "варфарин",
+      "dosage": "под контролем МНО",
+      "condition": "Фибрилляция предсердий",
+      "recommendation_class": "IA",
+      "source_text": "Варфарин как альтернатива ПОАК",
+      "category": "anticoagulant",
+      "required": false
+    },
+    {
+      "drug": "метопролол",
+      "dosage": "25–100 мг",
+      "condition": "Контроль ЧСС",
+      "recommendation_class": "IA",
+      "source_text": "Бета-блокаторы для контроля ритма",
+      "category": "beta_blocker",
+      "required": true
+    },
+    {
+      "drug": "холтер",
+      "dosage": "суточное мониторирование",
+      "condition": "Для контроля эффективности терапии",
+      "recommendation_class": "IA",
+      "source_text": "Холтер обязателен при ФП",
+      "category": "procedure",
+      "required": true
+    }
+  ],
+  "I49": [
+    {
+      "drug": "метопролол",
+      "dosage": "индивидуально",
+      "condition": "Другие аритмии",
+      "recommendation_class": "IIaC",
+      "source_text": "Бета-блокаторы могут быть назначены",
+      "category": "beta_blocker",
+      "required": false
+    },
+    {
+      "drug": "холтер",
+      "dosage": "суточное мониторирование",
+      "condition": "Для уточнения характера аритмии",
+      "recommendation_class": "IC",
+      "source_text": "Холтер рекомендуется при любых аритмиях",
+      "category": "procedure",
+      "required": true
+    }
+  ],
+  "I50": [
+    {
+      "drug": "фуросемид",
+      "dosage": "20–40 мг",
+      "condition": "Сердечная недостаточность с застоем",
+      "recommendation_class": "IA",
+      "source_text": "Диуретики при симптомах застоя",
+      "category": "diuretic",
+      "required": true
+    },
+    {
+      "drug": "бисопролол",
+      "dosage": "до 10 мг",
+      "condition": "ХСН со сниженной ФВ",
+      "recommendation_class": "IA",
+      "source_text": "Бета-блокаторы доказано снижают смертность",
+      "category": "beta_blocker",
+      "required": true
+    },
+    {
+      "drug": "эплеренон",
+      "dosage": "25-50 мг",
+      "condition": "ХСН со сниженной ФВ",
+      "recommendation_class": "IB",
+      "source_text": "Антагонисты альдостерона рекомендованы",
+      "category": "aldosterone_antagonist",
+      "required": true
+    },
+    {
+      "drug": "дапаглифлозин",
+      "dosage": "10 мг",
+      "condition": "ХСН",
+      "recommendation_class": "IA",
+      "source_text": "Ингибиторы SGLT2 рекомендованы при ХСН",
+      "category": "sglt2_inhibitor",
+      "required": true
+    },
+    {
+      "drug": "эхокг",
+      "dosage": "обязательно",
+      "condition": "Для подтверждения диагноза ХСН",
+      "recommendation_class": "IC",
+      "source_text": "ЭхоКГ — золотой стандарт диагностики ХСН",
+      "category": "procedure",
+      "required": true
+    }
+  ]
+}

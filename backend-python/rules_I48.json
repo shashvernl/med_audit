@@ -1,0 +1,47 @@
+[
+  {
+    "drug": "апиксабан",
+    "dosage": "5 мг 2 раза в сутки",
+    "condition": "фибрилляция предсердий, высокий риск тромбоэмболии",
+    "recommendation_class": "IA",
+    "source_text": "рекомендованы АПСВ при высоком риске тромбоэмболии",
+    "category": "anticoagulant",
+    "required": true
+  },
+  {
+    "drug": "ривароксабан",
+    "dosage": "20 мг 1 раз в сутки",
+    "condition": "фибрилляция предсердий, высокий риск тромбоэмболии",
+    "recommendation_class": "IA",
+    "source_text": "рекомендованы АПСВ при высоком риске тромбоэмболии",
+    "category": "anticoagulant",
+    "required": true
+  },
+  {
+    "drug": "дабигатран",
+    "dosage": "150 мг 2 раза в сутки",
+    "condition": "фибрилляция предсердий, высокий риск тромбоэмболии",
+    "recommendation_class": "IA",
+    "source_text": "рекомендованы АПСВ при высоком риске тромбоэмболии",
+    "category": "anticoagulant",
+    "required": true
+  },
+  {
+    "drug": "варфарин",
+    "dosage": "индивидуально (МНО 2.0–3.0)",
+    "condition": "фибрилляция предсердий, высокий риск тромбоэмболии",
+    "recommendation_class": "IA",
+    "source_text": "варфарин рекомендован как альтернатива АПСВ",
+    "category": "anticoagulant",
+    "required": false
+  },
+  {
+    "drug": "метопролол",
+    "dosage": "25–100 мг 2 раза в сутки",
+    "condition": "ФП, контроль частоты сердечных сокращений",
+    "recommendation_class": "IA",
+    "source_text": "рекомендованы бета-адреноблокаторы для контроля ЧСС",
+    "category": "beta_blocker",
+    "required": true
+  }
+]
